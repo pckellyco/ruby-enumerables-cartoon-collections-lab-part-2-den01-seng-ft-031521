@@ -33,9 +33,8 @@ end
 
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-  valid_ele = ""
-  valid_calls.each do |valid_ele|
-  planeteer_calls.find do valid_ele
+  planeteer_calls.each do |planteer_ele|
+  valid_calls.find do |planteer_ele|
   end
   end
 end
